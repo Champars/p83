@@ -9,7 +9,7 @@ linewidth = 1;
 canvas.addEventListener("mousedown", my_mousedown);
 
 function my_mousedown(e) {
-    color = document.getElementById("Colour").value;
+    colour = document.getElementById("Colour").value;
     linewidth = document.getElementById("Line").value;
     mouseEvent = "mousedown";
 }
